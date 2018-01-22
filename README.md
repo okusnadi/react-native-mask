@@ -93,7 +93,7 @@ If you expect the masked content to be nearly white, you can apply a wash to emp
 
 ```javascript
 <Text style={styles.text}>Washes</Text>
-<Mask shape="rounded" wash>
+<Mask shape={'rounded'} wash>
   <Image
     style={styles.shapeSize}
     source={{
